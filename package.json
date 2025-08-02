@@ -1,0 +1,36 @@
+{
+  "name": "delivery-checker",
+  "version": "1.0.0",
+  "description": "A robust program to validate delivery paths and generate step-by-step instructions for truck drivers",
+  "main": "deliverychecker.js",
+  "scripts": {
+    "test": "node deliverychecker.test.js",
+    "start": "node deliverychecker.js",
+    "validate": "node deliverychecker.js \"[[1,3],[2,5]]\" \"[1,2,3,4,5]\"",
+    "demo": "echo 'Running demo examples...' && npm run validate"
+  },
+  "bin": {
+    "delivery-checker": "./deliverychecker.js"
+  },
+  "keywords": [
+    "delivery",
+    "logistics", 
+    "path-validation",
+    "routing",
+    "truck-driver",
+    "instructions",
+    "validation"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "local"
+  },
+  "files": [
+    "deliverychecker.js"
+  ]
+}
